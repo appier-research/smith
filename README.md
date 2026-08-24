@@ -10,7 +10,9 @@
 
 ---
 
-![SMITH teaser: the same policy invents a tool, uses it to solve problems, and learns from the results.](https://raw.githubusercontent.com/tool-use-smith/tool-use-smith.github.io/main/static/teaser.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tool-use-smith/tool-use-smith.github.io/main/static/teaser.png" alt="SMITH teaser: the same policy invents a tool, uses it to solve problems, and learns from the results." width="800">
+</p>
 
 SMITH is a training loop, not a fixed pipeline: the *same* policy invents a tool, uses it to solve problems, and is optimized on whether that use succeeds. That feedback is what keeps tool creation improving over time.
 
@@ -30,7 +32,9 @@ Tool-augmented language models are bounded by the APIs humans bothered to write;
 
 ## Method
 
-![SMITH method diagram: build tasks produce a Python tool and JSON schema, tools are validated and stored in a pool, and use tasks later invoke a pooled tool on a held-out question, feeding execution-based reward back to the policy.](https://raw.githubusercontent.com/tool-use-smith/tool-use-smith.github.io/main/static/img/method-diagram.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tool-use-smith/tool-use-smith.github.io/main/static/img/method-diagram.png" alt="SMITH method diagram: build tasks produce a Python tool and JSON schema, tools are validated and stored in a pool, and use tasks later invoke a pooled tool on a held-out question, feeding execution-based reward back to the policy." width="800">
+</p>
 
 SMITH is a multi-task RL framework trained with DAPO (a clip-higher variant of GRPO) that mixes two rollout types into every batch: **build** and **use**. Both are optimized inside the *same* policy, so gradients from tool creation and tool consumption update the same weights every step.
 
