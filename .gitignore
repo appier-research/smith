@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+data/*.jsonl
+data/*.json
+data/*.csv
+data/*.tsv
+data/*.parquet
+*.zip
+!data/tabmwp_hard.zip
+
+# ML training artifacts
+checkpoints/
+outputs/
+runs/
+logs/
+*.log
+wandb/
+mlruns/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# HuggingFace cache
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Secrets / env
+.env
+*.env
+secrets.yaml
+secrets.json
