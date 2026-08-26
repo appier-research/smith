@@ -6,7 +6,7 @@
 
 <sup>1</sup>Appier AI Research &nbsp;&nbsp; <sup>2</sup>National Taiwan University
 
-[[Paper]](https://tool-use-smith.github.io) [[Project Page]](https://tool-use-smith.github.io) [[Code]](https://github.com/appier-research/smith)
+[[Paper]](https://arxiv.org/abs/2608.24571) [[Project Page]](https://tool-use-smith.github.io) [[Code]](https://github.com/appier-research/smith)
 
 ---
 
